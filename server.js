@@ -12,7 +12,7 @@ const image = require('./controlers/image.js');
 const knex = require('knex')({
   client: 'pg',
   connection: {
-    connectionString  : process.env.DATABASE_URL; // 'postgresql-rigid-28132',
+    connectionString  : process.env.DATABASE_URL, // 'postgresql-rigid-28132',
     ssl: true,
   }
 });
